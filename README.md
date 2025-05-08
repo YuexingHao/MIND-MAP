@@ -1,5 +1,5 @@
 # MedPAIR: Measuring Physicians and AI Relevance Alignment in Medical Question Answering
-MedPAIR is "Medical Dataset Comparing Physician Trainees and AI Relevance Estimation and Question Answering". We design MedPAIR to compare LLM reasoning processes to those of physician trainees and to enable future research to focus on relevant features. MedPAIR is a first benchmark step to matching the relevancy annotated by clinical professional labelers to that estimated by LLMs. The motivation for MedPAIR is to ensure that what the LLM finds relevant in a clinical case closely matches what a physician trainee finds relevant.
+MedPAIR represents a "Medical Dataset Comparing Physician Trainees and AI Relevance Estimation and Question Answering". We design MedPAIR to compare LLM reasoning processes to those of physician trainees and to enable future research to focus on relevant features. MedPAIR is a first benchmark step to matching the relevancy annotated by clinical professional labelers to that estimated by LLMs. The motivation for MedPAIR is to ensure that what the LLM finds relevant in a clinical case closely matches what a physician trainee finds relevant.
 
 ## Acknowledgments
 This project is supported by Designing for Sustainability MIT-HPI Joint Research Program.
