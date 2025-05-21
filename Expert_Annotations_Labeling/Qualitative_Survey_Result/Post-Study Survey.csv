@@ -1,0 +1,30 @@
+"Of the questions you have just labeled, what percentage of them have you seen verbatim beforehand (e.g. in your classes, or when preparing for USMLE)?","Of the questions you have just labeled, what do you think your accuracy (percentage) was in answering the multiple choice questions?","Suppose we were to give the same clinical questions to the current best LLM (e.g. GPT o3, Claude 3.7 Sonnet), what do you think its accuracy would be on the multiple choice questions?","How confident were you, on average, in your answers for the sentence relevance scores?",Please rate the degree of ambiguity you perceive in the true relevance labels on a scale from 1 to 5.,To what degree do you think the process of answering multiple choice clinical QAs correlates with real-world day-to-day medical practice?,Approximately what percentage of questions did you skip?
+0,50,70,Very Confident,3: Moderate ambiguity,Slightly aligned,11 - 20
+0,60,90,Very Confident,3: Moderate ambiguity,Moderately aligned,41 - 50
+30,70,90,Moderately Confident,4: Slight ambiguity,Moderately aligned,11 - 20
+10,70,90,Moderately Confident,4: Slight ambiguity,Moderately aligned,41 - 50
+0,70,90,Moderately Confident,2: High ambiguity,Moderately aligned,31 - 40
+0,60,90,Very Confident,4: Slight ambiguity,Slightly aligned,21 - 30
+0,70,40,Moderately Confident,4: Slight ambiguity,Not at all aligned,0 -10
+0,60,70,Moderately Confident,3: Moderate ambiguity,Slightly aligned,11 - 20
+0,70,80,Moderately Confident,2: High ambiguity,Moderately aligned,0 -10
+10,80,90,Very Confident,3: Moderate ambiguity,Very closely aligned,11 - 20
+0,70,90,Moderately Confident,3: Moderate ambiguity,Moderately aligned,21 - 30
+0,90,80,Moderately Confident,3: Moderate ambiguity,Moderately aligned,11 - 20
+0,60,80,Moderately Confident,3: Moderate ambiguity,Slightly aligned,0 -10
+10,70,80,Moderately Confident,2: High ambiguity,Moderately aligned,31 - 40
+,50,80,Moderately Confident,3: Moderate ambiguity,Slightly aligned,21 - 30
+30,40,90,Slightly confident,3: Moderate ambiguity,Slightly aligned,31 - 40
+0,70,80,Moderately Confident,3: Moderate ambiguity,Slightly aligned,0 -10
+30,70,90,Moderately Confident,3: Moderate ambiguity,Slightly aligned,21 - 30
+20,80,70,Moderately Confident,3: Moderate ambiguity,Strongly aligned,11 - 20
+80,60,70,Moderately Confident,4: Slight ambiguity,Moderately aligned,31 - 40
+10,20,70,Slightly confident,3: Moderate ambiguity,Moderately aligned,11 - 20
+0,70,90,Moderately Confident,2: High ambiguity,Slightly aligned,31 - 40
+0,70,70,Moderately Confident,4: Slight ambiguity,Strongly aligned,31 - 40
+0,90,80,Very Confident,3: Moderate ambiguity,Strongly aligned,0 -10
+0,60,100,Moderately Confident,5: No ambiguity at all,Moderately aligned,0 -10
+0,60,70,Moderately Confident,3: Moderate ambiguity,Slightly aligned,11 - 20
+0,70,80,Slightly confident,4: Slight ambiguity,Moderately aligned,21 - 30
+0,50,50,Moderately Confident,3: Moderate ambiguity,Moderately aligned,0 -10
+10,30,90,Moderately Confident,3: Moderate ambiguity,Slightly aligned,11 - 20

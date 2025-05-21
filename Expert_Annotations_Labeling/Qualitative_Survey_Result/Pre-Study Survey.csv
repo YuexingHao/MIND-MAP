@@ -1,0 +1,37 @@
+Age,Gender,Year of medical school?,USMLE Step 1 passed?,How many previous studies/tasks have they Labeled with Centaur Labs? Please enter a numerical value.,Which medical school do you attend?,"Are you familiar with any of the following clinical challenges? JAMA Clinical Challenge, NEJM Image Challenge, NEJM Resident 360.","If you are familiar with any of the clinical challenges, how regularly do you follow these challenges?",Are you familiar with the MedBullets website?,"If you are familiar with the MedBullets website, how regularly do you follow the clinical challenges released there?","How familiar are you with the use of large language models (LLMs) in a clinical setting? This might include using LLMs in the clinic, or asking LLMs (such as ChatGPT) clinical questions.",To what degree (in percentage) do you think LLMs are ready to be deployed in clinical settings (0-100)?
+26,Male,M3,No,100,Rush Medical College,Some familiarity,Occasionally,Some familiarity,Occasionally,High familiarity,25
+22,Male,M1,No,0,Dartmouth Geisel School of Medicine,Some familiarity,Not at all,High familiarity,Occasionally,High familiarity,80
+27,Female,M3,Yes,0,UNC Chapel Hill SOM,Not familiar,,Some familiarity,Not at all,Some familiarity,30
+26,Female,M3,No,0,Tufts University School of Medicine,Not familiar,,Not familiar,,Some familiarity,70
+,Male,M4,Yes,1,Dell Medical School,Not familiar,,Some familiarity,Not at all,Not familiar,20
+25,Male,M3,Yes,0,Warren Alpert Medical School of Brown University,Some familiarity,Occasionally,High familiarity,Not at all,Some familiarity,45
+26,Female,M4,Yes,1,George Washington University SOM,High familiarity,Occasionally,High familiarity,Occasionally,High familiarity,90
+28,Male,G3 (MD/PhD),Yes,0,UC San Diego,Some familiarity,Not at all,Not familiar,,High familiarity,30
+29,Male,M4,Yes,O,Emory University,Some familiarity,Occasionally,Not familiar,Not at all,High familiarity,60
+25,Male,M3,Yes,0,Indiana University School of Medicine,Some familiarity,,Some familiarity,Not at all,High familiarity,58
+26,Female,M3,Yes,0,Tufts University School of Medicine,Not familiar,Not at all,Not familiar,Not at all,Some familiarity,40
+24,Male,M3,Yes,0,Columbia VP&S,Not familiar,,Not familiar,,High familiarity,20
+,Male,M2,Yes,0,NYU Grossman School of Medicine,Some familiarity,Not at all,Not familiar,Not at all,Some familiarity,70
+27,gender queer,M3,Yes,0,KPSOM,Some familiarity,Not at all,Some familiarity,Not at all,Not familiar,NA
+,Male,M2,Yes,0,Harvard,High familiarity,Occasionally,High familiarity,Occasionally,High familiarity,25
+26,Male,M4,Yes,0,Dell Medical school,Some familiarity,Not at all,Not familiar,Not at all,Some familiarity,30
+32,Male,M4,Yes,0,Northwestern,Not familiar,Not at all,Some familiarity,Not at all,Some familiarity,5
+25,Male,M1,No,0,University of Texas Medical Branch,Some familiarity,Occasionally,Not familiar,Not at all,Some familiarity,50
+28,Female,M3,Yes,4,KPSOM,Some familiarity,Occasionally,High familiarity,Occasionally,High familiarity,40
+26,Male,M4,Yes,0,UNC School of Medicine,Some familiarity,Occasionally,High familiarity,Occasionally,High familiarity,75
+27,Female,M4,Yes,0,Alabama College of Osteopathic Medicine,Not familiar,,Not familiar,,Some familiarity,50
+23,Male,M1,No,0,University of Maryland School of medicine,Some familiarity,Occasionally,Some familiarity,Not at all,Some familiarity,45
+33,Female,M4,Yes,0,Touro College of Osteopathic Medicine Middletown NY,Not familiar,,Not familiar,,Some familiarity,70
+,Female,M3,No,1,Case Western,Some familiarity,Not at all,High familiarity,Not at all,High familiarity,30%
+,Male,M4,Yes,2,Harvard,High familiarity,Occasionally,Not familiar,Not at all,High familiarity,60
+25,Male,M3,Yes,0,UNC School of Medicine,Not familiar,,Not familiar,,High familiarity,80
+23,Male,M1,No,0,UC Irvine,Not familiar,Not at all,Not familiar,Not at all,High familiarity,50
+25,Male,M3,No,40+,WUSM,Not familiar,Not at all,Some familiarity,Not at all,High familiarity,70
+25,Male,M3,Yes,0,Indiana University School of Medicine,Some familiarity,Not at all,Some familiarity,Not at all,High familiarity,20
+27,Female,M3,Yes,0,UNC,Not familiar,Not at all,Some familiarity,Not at all,Some familiarity,35
+26,Female,M3,No,0,Tufts University School of Medicine,Not familiar,Not at all,Not familiar,,Not familiar,70
+22,Male,M1,No,1,Dartmouth Geisel SOM,Some familiarity,Occasionally,Some familiarity,Occasionally,Some familiarity,75
+28,Male,M4,Yes,0,Alabama College of Osteopathic Medicine,Some familiarity,Occasionally,Not familiar,Not at all,Some familiarity,60
+25,Male,M4,Yes,1 (In progress),University of Toledo,Some familiarity,Not at all,High familiarity,Not at all,Some familiarity,25%
+26,Male,M4,Yes,0,UNC Chapel Hill,Not familiar,Not at all,Not familiar,Not at all,Some familiarity,30
+26,Male,M4,Yes,3,UNC School of Medicine,Some familiarity,Occasionally,Some familiarity,Occasionally,High familiarity,40
