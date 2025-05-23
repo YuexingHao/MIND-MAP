@@ -1,0 +1,451 @@
+﻿Origin,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,ID_corr,sentence_number_corr,answer_corr,data_source_corr,REMOVED_Sentences,sentence_number_df3,step1_excerpts,question_options,Filtered_Sentences,New_Sentences,Redundant Clinical Details,"Negative Result or vital signs, Not essential for diagnosis; Was the clinical information removed because it was negative and did not add meaningful value?","History (Medical, Surgical, Medication, Social) with No/Very Low Clinical Information",Low-yield diagnostic/interventional detail (Patient did X test; without result),"Low Relevant / Irrelevant Temporal Information (Patient did X, Y happened, etc. that is less relevant to current medical problem)",Did the labeler simply missed the important information and mislabeled relevant info to be irrelevant?,"Removed other relevant info? (Yes - they did remove, No - they didn't remove)","Using only filtered sentences, can you solve the question?",Sentences that needs further screening,ETC
+ID0002,1,0.833333333,REMOVED,1,REMOVED,0.833333333,REMOVED,REMOVED,REMOVED,REMOVED,0.75,,,,,,,,,,ID0002,11,D,jama,6,11,"1. A woman in her 60s with a history of hyperlipidemia, hypothyroidism, and chronic migraines presented with 9 months of progressively worsening left-sided ptosis, which was more notable at night and with fatigue.
+2. She denied experiencing pain, diplopia, muscle weakness, dysarthria, dysphagia, difficulty breathing, or other neurologic deficits.
+3. On examination, corrected visual acuity was 20/20 bilaterally, with normal color vision, visual fields, intraocular pressure, extraocular movements, alignment, and pupils.
+4. External examination was notable for left upper eyelid ptosis (Figure 1), with a margin-to-reflex distance 1 of 3.5 mm on the right and 0.5 mm on the left, intact levator function, and no fatiguability on sustained upgaze.
+5. There was no evidence of eyelid edema, erythema, or tenderness to palpation.
+6. There were no palpable adnexal masses or orbital rim deformities, but there was mild fullness in the left superior sulcus and mildly increased left-sided resistance to retropulsion.
+7. However, Hertel exophthalmometry did not reveal any relative proptosis.
+8. No lacrimal gland abnormalities or conjunctival masses were seen with upper eyelid eversion.
+9. There was no palpable preauricular or cervical lymphadenopathy.
+10. Slitlamp and fundus examination findings were normal.
+11. Serological testing results for antiacetylcholine receptor antibody were negative.","What Would You Do Next?
+
+A: Perform left upper eyelid ptosis repair  
+B: Request single-fiber electromyography  
+C: Biopsy the left levator palpebrae superioris  
+D: Obtain orbital imaging with intravenous contrast","['3. On examination, corrected visual acuity was 20/20 bilaterally, with normal color vision, visual fields, intraocular pressure, extraocular movements, alignment, and pupils.', '5. There was no evidence of eyelid edema, erythema, or tenderness to palpation.', '7. However, Hertel exophthalmometry did not reveal any relative proptosis.', '8. No lacrimal gland abnormalities or conjunctival masses were seen with upper eyelid eversion.', '9. There was no palpable preauricular or cervical lymphadenopathy.', '10. Slitlamp and fundus examination findings were normal.']","['1. A woman in her 60s with a history of hyperlipidemia, hypothyroidism, and chronic migraines presented with 9 months of progressively worsening left-sided ptosis, which was more notable at night and with fatigue.', '2. She denied experiencing pain, diplopia, muscle weakness, dysarthria, dysphagia, difficulty breathing, or other neurologic deficits.', '4. External examination was notable for left upper eyelid ptosis (Figure 1), with a margin-to-reflex distance 1 of 3.5 mm on the right and 0.5 mm on the left, intact levator function, and no fatiguability on sustained upgaze.', '6. There were no palpable adnexal masses or orbital rim deformities, but there was mild fullness in the left superior sulcus and mildly increased left-sided resistance to retropulsion.', '11. Serological testing results for antiacetylcholine receptor antibody were negative.']",Yes,"Yes, does add clue to differential diagnose with other conditions but sufficient with chosen sentences",No,No,No,No,"Yes, Relevant but not crucial information. ",Yes,,I don't have enough ophthalmologic experience to answer this question; answered based on googling and teaching myself regarding orbital mass. 
+ID0003,1,1,REMOVED,1,1,1,REMOVED,,,,,,,,,,,,,,ID0003,7,G,medxpert,2,7,"1. A 20-year-old woman comes to the primary care clinic with complaints of a progressively worsening sore throat, dry cough, and ear pain.
+2. She reports feeling mildly unwell for two weeks prior, with symptoms including fever, fatigue, muscle aches, and headache.
+3. Her medical history is unremarkable, and her only daily medication is a combined oral contraceptive pill.
+4. She works as a waitress at a local diner and mentions exposure to sick patrons.
+5. On examination, her temperature is 101.5 ¬¨‚à´F, blood pressure is 118/76 mmHg, pulse is 78/min, and respiratory rate is 14/min.
+6. Chest auscultation is unremarkable, but a chest X-ray reveals bilateral multifocal opacities in the lungs.
+7. Sputum culture and Gram stain are negative.","Which of the following components is essential for culturing the most likely causative organism?
+
+A. Iron  
+B. Urea  
+C. Magnesium  
+D. Cysteine  
+E. Glucose  
+F. Nicotinamide  
+G. Cholesterol  
+H. Hemin  
+I. Sulfate  
+J. Pyridoxine","['3. Her medical history is unremarkable, and her only daily medication is a combined oral contraceptive pill.', '7. Sputum culture and Gram stain are negative.']","['1. A 20-year-old woman comes to the primary care clinic with complaints of a progressively worsening sore throat, dry cough, and ear pain.', '2. She reports feeling mildly unwell for two weeks prior, with symptoms including fever, fatigue, muscle aches, and headache.', '4. She works as a waitress at a local diner and mentions exposure to sick patrons.', '5. On examination, her temperature is 101.5 ¬¨‚à´F, blood pressure is 118/76 mmHg, pulse is 78/min, and respiratory rate is 14/min.', '6. Chest auscultation is unremarkable, but a chest X-ray reveals bilateral multifocal opacities in the lungs.']",No,Yes,Yes,No,No,No,No,Yes,,
+ID0007,REMOVED,1,1,1,1,REMOVED,1,,,,,,,,,,,,,,ID0007,7,B,medbullets,2,7,"1. A 72-year-old man presents to his primary care physician with weakness.
+2. He has felt very weak every morning with his symptoms persisting throughout the day.
+3. He notes minor improvement when he rides his bike but otherwise has not noticed any change in his symptoms with rest or ibuprofen use.
+4. The patient has lost 12 pounds recently and has had a chronic cough.
+5. The patient lives alone and drinks 7 alcoholic beverages per day and smokes 1-2 packs of cigarettes per day for the past 40 years.
+6. His temperature is 99.5¬¨‚àûF (37.5¬¨‚àûC), blood pressure is 177/108 mmHg, pulse is 93/min, respirations are 17/min, and oxygen saturation is 92% on room air.
+7. A chest radiograph is ordered as seen in Figure A.","Which of the following diagnostic tests would most likely elucidate the cause of this patient's weakness?
+
+A. CT scan of the chest  
+B. Electromyography  
+C. Lung biopsy  
+D. Muscle biopsy","['1. A 72-year-old man presents to his primary care physician with weakness.', '6. His temperature is 99.5¬¨‚àûF (37.5¬¨‚àûC), blood pressure is 177/108 mmHg, pulse is 93/min, respirations are 17/min, and oxygen saturation is 92% on room air.']","['2. He has felt very weak every morning with his symptoms persisting throughout the day.', '3. He notes minor improvement when he rides his bike but otherwise has not noticed any change in his symptoms with rest or ibuprofen use.', '4. The patient has lost 12 pounds recently and has had a chronic cough.', '5. The patient lives alone and drinks 7 alcoholic beverages per day and smokes 1-2 packs of cigarettes per day for the past 40 years.', '7. A chest radiograph is ordered as seen in Figure A.']",Yes,Yes,No,No,No,No,No,Yes,,
+ID0009,REMOVED,1,1,1,1,1,REMOVED,REMOVED,,,,,,,,,,,,,ID0009,8,D,jama,3,8,"1. A woman in her 30s presented with multiple discrete and clustered blue papules on her face and extremities.
+2. The lesions had been present since childhood, but the size of the lesions and the intensity of pain associated with them had recently increased with even light touch causing paroxysms of pain.
+3. The pain associated with these papules worsened as the day progressed, and she could not tolerate elastic compression due to excessive pain on compression.
+4. Her medical and family histories were unremarkable.
+5. Physical examination revealed multiple discrete and agminated blue papules on the face, arms, hands, and thighs with a cobblestoned appearance (Figure 1).
+6. On palpation, the papules were exquisitely tender and partially compressible.
+7. The patient underwent duplex ultrasonography of representative papules on the thigh, and a skin biopsy specimen of a papule on the thigh was obtained for histopathologic evaluation.
+8. Clinically, multiple discrete and agminated blue papules are apparent, nodular, blue cutaneous lesions cobblestone-like in appearance, on the thigh (A) and hand and thigh (B).","What Is Your Diagnosis?
+
+A: Blue rubber bleb nevus syndrome  
+B: Venous malformation  
+C: Hemangioma  
+D: Glomuvenous malformation","['1. A woman in her 30s presented with multiple discrete and clustered blue papules on her face and extremities.', '7. The patient underwent duplex ultrasonography of representative papules on the thigh, and a skin biopsy specimen of a papule on the thigh was obtained for histopathologic evaluation.', '8. Clinically, multiple discrete and agminated blue papules are apparent, nodular, blue cutaneous lesions cobblestone-like in appearance, on the thigh (A) and hand and thigh (B).']","['2. The lesions had been present since childhood, but the size of the lesions and the intensity of pain associated with them had recently increased with even light touch causing paroxysms of pain.', '3. The pain associated with these papules worsened as the day progressed, and she could not tolerate elastic compression due to excessive pain on compression.', '4. Her medical and family histories were unremarkable.', '5. Physical examination revealed multiple discrete and agminated blue papules on the face, arms, hands, and thighs with a cobblestoned appearance (Figure 1).', '6. On palpation, the papules were exquisitely tender and partially compressible.']",Yes,No,Yes; Medical history (#1) is redundant to #5,Yes,No,No,"Yes, Relevant but redundant",Yes,,
+ID0010,1,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,1,,,,,,,,,,,,,,ID0010,7,H,medxpert,5,7,"1. A 17-year-old high school student accidentally amputated part of his right index finger during shop class.  
+2. His teacher applied dressings and pressure to the wound and transported him to the emergency department within 20 minutes of the incident.  
+3. The patient‚Äö√Ñ√¥s medical history includes asthma, and his only medication is albuterol.  
+4. Vital signs show a temperature of 98.0¬¨‚àûF (36.6¬¨‚àûC), blood pressure of 120/70 mmHg, pulse of 105/min, and respirations of 17/min.  
+5. Examination reveals pulsatile bleeding from a clean-cut wound at the distal interphalangeal joint of the right second finger.  
+6. The wound was cleaned, compression applied, analgesics given, and hand surgeons were notified.  
+7. The amputated finger was left in the classroom, but the principal is bringing it to the hospital.","What is the proper method for transporting the amputated finger?
+
+A. Wrap the finger in moist gauze and place in a plastic bag  
+B. Rinse the finger with hydrogen peroxide, wrap the finger in moist gauze, and place on ice  
+C. Rinse the finger with tap water, wrap in moist gauze, and place directly on ice  
+D. Wrap the finger in dry gauze, place in a plastic bag, and submerge the bag in ice water  
+E. Rinse the finger in sterile water, wrap in dry gauze, and place directly on ice  
+F. Submerge the finger in sterile saline and place the container on ice  
+G. Place the finger in a sealed plastic bag without rinsing and keep it on ice  
+H. Rinse the finger in normal saline, wrap the finger in moist gauze, put in a plastic bag, and place the bag in ice water  
+I. Rinse the finger in normal saline, place in a dry plastic container, and keep at room temperature  
+J. Submerge the finger directly in ice water","['2. His teacher applied dressings and pressure to the wound and transported him to the emergency department within 20 minutes of the incident.  ', '3. The patient‚Äö√Ñ√¥s medical history includes asthma, and his only medication is albuterol.  ', '4. Vital signs show a temperature of 98.0¬¨‚àûF (36.6¬¨‚àûC), blood pressure of 120/70 mmHg, pulse of 105/min, and respirations of 17/min.  ', '5. Examination reveals pulsatile bleeding from a clean-cut wound at the distal interphalangeal joint of the right second finger.  ', '6. The wound was cleaned, compression applied, analgesics given, and hand surgeons were notified.  ']","['1. A 17-year-old high school student accidentally amputated part of his right index finger during shop class.  ', '7. The amputated finger was left in the classroom, but the principal is bringing it to the hospital.']",No,No,Yes,Yes,No,No,No,Yes,,
+ID0013,1,0.833333333,1,REMOVED,REMOVED,0.666666667,1,,,,,,,,,,,,,,ID0013,7,B,mmlu,2,7,"1. A 3-year-old white girl is brought to the office by her parents for a follow-up visit 48 hours after receiving a 5-TU PPD skin test.
+2. The test was done as part of a routine screening for enrollment in a homeless shelter.
+3. Physical examination shows 10 mm of induration at the puncture site; the examination is otherwise normal.
+4. The parents tell you they are shocked by this finding since both of their skin tests were nonreactive.
+5. They say they were born in this country and tell you that their daughter has always been in good health.
+6. She has not had much medical care in the past 2 years but she has been healthy.
+7. Until moving into this shelter they had been ""squatters"" in vacant buildings.","Which of the following is the most appropriate step at this time?
+
+A. Call her previous physician to obtain more history
+
+B. Order a chest x-ray
+
+C. Order a test for HIV antibody
+
+D. Repeat the PPD skin test","['4. The parents tell you they are shocked by this finding since both of their skin tests were nonreactive.', '5. They say they were born in this country and tell you that their daughter has always been in good health.']","['1. A 3-year-old white girl is brought to the office by her parents for a follow-up visit 48 hours after receiving a 5-TU PPD skin test.', '2. The test was done as part of a routine screening for enrollment in a homeless shelter.', '3. Physical examination shows 10 mm of induration at the puncture site; the examination is otherwise normal.', '6. She has not had much medical care in the past 2 years but she has been healthy.', '7. Until moving into this shelter they had been ""squatters"" in vacant buildings.']",No,No,No,No,Yes,No,No,Yes,#7,
+ID0015,1,0.75,REMOVED,0.75,REMOVED,1,REMOVED,REMOVED,REMOVED,REMOVED,,,,,,,,,,,ID0015,10,C,jama,6,10,"1. A 60-year-old man with a history of IgA kappa multiple myeloma was referred to our department.
+2. He had been diagnosed with multiple myeloma 2 years earlier after discovery of osteolytic bone lesions of the skull and the findings of a bone marrow biopsy.
+3. The patient had been treated with bortezomib and dexamethasone followed by autologous blood progenitor cell transplantation, which resulted in complete response.
+4. At the time of the consultation, he was free of disease.The patient was referred for evaluation of an indolent, erythematous papule on his glans penis of 2 weeks‚Äö√Ñ√¥ duration.
+5. He denied sexual risk behavior and reported no recent changes in medication.
+6. Careful physical examination revealed a shiny, tense, erythematous, hemispherical papule measuring 5 mm in diameter located on the lateral aspect of the glans (Figure 1A).
+7. There were no other skin lesions.
+8. The lymph nodes were not palpable, and there was no organomegaly.
+9. A punch biopsy was performed for histopathological evaluation (Figure 1B and C).A, Shiny, erythematous, hemispherical papule on the lateral aspect of the glans penis.
+10. B and C, Hematoxylin-eosin stain was performed for evaluation.","What Is Your Diagnosis?
+
+A: Primary penile B-cell non-Hodgkin lymphoma  
+B: Kaposi sarcoma of the penis  
+C: Plasmacytoma  
+D: Primary nodular amyloidosis of the glans penis","['3. The patient had been treated with bortezomib and dexamethasone followed by autologous blood progenitor cell transplantation, which resulted in complete response.', '5. He denied sexual risk behavior and reported no recent changes in medication.', '7. There were no other skin lesions.', '8. The lymph nodes were not palpable, and there was no organomegaly.', '9. A punch biopsy was performed for histopathological evaluation (Figure 1B and C).A, Shiny, erythematous, hemispherical papule on the lateral aspect of the glans penis.', '10. B and C, Hematoxylin-eosin stain was performed for evaluation.']","['1. A 60-year-old man with a history of IgA kappa multiple myeloma was referred to our department.', '2. He had been diagnosed with multiple myeloma 2 years earlier after discovery of osteolytic bone lesions of the skull and the findings of a bone marrow biopsy.', '4. At the time of the consultation, he was free of disease.The patient was referred for evaluation of an indolent, erythematous papule on his glans penis of 2 weeks‚Äö√Ñ√¥ duration.', '6. Careful physical examination revealed a shiny, tense, erythematous, hemispherical papule measuring 5 mm in diameter located on the lateral aspect of the glans (Figure 1A).']",Yes,Yes,Yes,Yes,Yes,No,"Yes, but low relevant",Yes,,
+ID0016,1,REMOVED,1,REMOVED,REMOVED,REMOVED,REMOVED,,,,,,,,,,,,,,ID0016,7,B,jama,5,7,"1. A previously healthy man in his 50s presented with a 1-day history of sudden painful decreased vision in the right eye.
+2. On examination, his visual acuity was counting fingers at 3 ft OD and 20/20 OS.
+3. A slitlamp examination of the right eye revealed conjunctival hyperemia, nongranulomatous keratic precipitates in the inferior half of the corneal endothelium, and 3+ cells in the anterior chamber, while results of a dilated fundus examination showed 1+ vitritis, 360¬¨‚àû of optic nerve swelling, intraretinal hemorrhages predominantly along the distribution of the retinal arteries and arterioles, and perivascular sheathing, as well as macula involving retinal whitening, thickening, and subretinal fluid (Figure, A).
+4. Fluorescein angiography revealed late vascular leakage with both arterial and venous involvement (Figure, B) and peripheral ischemia.
+5. Examination of the left eye revealed no abnormalities.A, Wide-field photograph of the right eye demonstrates optic nerve edema (white arrowhead), scattered intraretinal hemorrhages (red arrowheads), perivascular sheathing (yellow arrowheads), and retinal whitening and thickening with subretinal fluid in the macula extending inferiorly (blue arrowheads).
+6. B, Fluorescein angiograph shows arterial and venous vasculitis and peripheral ischemia.
+7. The black arrowhead points to leakage from the cilioretinal artery.Initiate uveitis workup and start topical corticosteroid therapyObtain aqueous sample through needle aspirate for viral polymerase chain reaction, and start intravitreal and systemic antiviral therapy","What Would You Do Next?
+
+A: Initiate uveitis workup and start topical corticosteroid therapy  
+B: Obtain aqueous sample through needle aspirate for viral polymerase chain reaction, and start intravitreal and systemic antiviral therapy  
+C: Perform a lumbar puncture  
+D: Perform pars plana vitrectomy","['2. On examination, his visual acuity was counting fingers at 3 ft OD and 20/20 OS.', '4. Fluorescein angiography revealed late vascular leakage with both arterial and venous involvement (Figure, B) and peripheral ischemia.', '5. Examination of the left eye revealed no abnormalities.A, Wide-field photograph of the right eye demonstrates optic nerve edema (white arrowhead), scattered intraretinal hemorrhages (red arrowheads), perivascular sheathing (yellow arrowheads), and retinal whitening and thickening with subretinal fluid in the macula extending inferiorly (blue arrowheads).', '6. B, Fluorescein angiograph shows arterial and venous vasculitis and peripheral ischemia.', '7. The black arrowhead points to leakage from the cilioretinal artery.Initiate uveitis workup and start topical corticosteroid therapyObtain aqueous sample through needle aspirate for viral polymerase chain reaction, and start intravitreal and systemic antiviral therapy']","['1. A previously healthy man in his 50s presented with a 1-day history of sudden painful decreased vision in the right eye.', '3. A slitlamp examination of the right eye revealed conjunctival hyperemia, nongranulomatous keratic precipitates in the inferior half of the corneal endothelium, and 3+ cells in the anterior chamber, while results of a dilated fundus examination showed 1+ vitritis, 360¬¨‚àû of optic nerve swelling, intraretinal hemorrhages predominantly along the distribution of the retinal arteries and arterioles, and perivascular sheathing, as well as macula involving retinal whitening, thickening, and subretinal fluid (Figure, A).']","Yes, #4","Yes, #2, #5",No,No,Yes,No,"Yes, but low relevant",Yes,,
+ID0017,0.75,0.75,0.75,1,REMOVED,REMOVED,,,,,,,,,,,,,,,ID0017,6,C,jama,2,6,"1. A man in his 60s with a known history of a large cyst on the right kidney sustained blunt trauma in a skiing crash.
+2. Computed tomography (CT) showed a right-sided grade IV renal injury involving his known renal cyst with active arterial extravasation (Figure, A).
+3. The patient underwent selective angioembolization of the renal laceration.A, Abdominal computed tomography (CT) with contrast demonstrating grade IV laceration of the right kidney and active extravasation.
+4. B, Abdominal CT obtained on day 2 of hospitalization showing large right-sided retroperitoneal hematoma and grade IV renal laceration displacing the patient‚Äö√Ñ√¥s abdominal viscera to the left, with contrast-filled structure medial to the liver.In the 24 hours after embolization, the patient required 2 U of red blood cells via transfusion for anemia.
+5. On examination, the patient reported moderate pain in the abdomen and right side and demonstrated a distended abdomen in the absence of any peritoneal signs.
+6. Contrast-enhanced CT of the abdomen and pelvis was performed to assess for a source of continued bleeding (Figure, B).","What Is Your Diagnosis?
+
+A: Hepatic artery injury  
+B: Jejunal injury with intraluminal contrast extravasation  
+C: Contrast-enhancing gallbladder  
+D: Rupture of a peripancreatic pseudoaneurysm","['5. On examination, the patient reported moderate pain in the abdomen and right side and demonstrated a distended abdomen in the absence of any peritoneal signs.', '6. Contrast-enhanced CT of the abdomen and pelvis was performed to assess for a source of continued bleeding (Figure, B).']","['1. A man in his 60s with a known history of a large cyst on the right kidney sustained blunt trauma in a skiing crash.', '2. Computed tomography (CT) showed a right-sided grade IV renal injury involving his known renal cyst with active arterial extravasation (Figure, A).', '3. The patient underwent selective angioembolization of the renal laceration.A, Abdominal computed tomography (CT) with contrast demonstrating grade IV laceration of the right kidney and active extravasation.', '4. B, Abdominal CT obtained on day 2 of hospitalization showing large right-sided retroperitoneal hematoma and grade IV renal laceration displacing the patient‚Äö√Ñ√¥s abdominal viscera to the left, with contrast-filled structure medial to the liver.In the 24 hours after embolization, the patient required 2 U of red blood cells via transfusion for anemia.']","Yes, #5",No,No,"Yes, #6",No,"Yes, but it is also redundant and moderately useful context (#5)",No,Yes,,
+ID0021,1,1,REMOVED,0.666666667,0.833333333,0.833333333,REMOVED,0.666666667,0.833333333,0.666666667,1,,,,,,,,,,ID0021,11,B,jama,2,11,"1. An adolescent boy was referred to the emergency department for suspected herpes zoster infection by his pediatrician.
+2. He presented with a 2-day history of painful, left-sided vesicular rash around his eyelid and forehead.
+3. Medical history was significant for a heart murmur with no known history of chickenpox.
+4. His pediatrician prescribed oral acyclovir and ibuprofen as needed for pain.
+5. Best-corrected visual acuity was 20/20 OD and 20/25-2 OS.
+6. On examination, clear vesicles on erythematous bases were noted in the V1 distribution with left upper eyelid edema and erythema.
+7. Pupils were equally reactive with no relative afferent pupillary defect.
+8. Visual fields were full in both eyes.
+9. Anterior examination was significant for left-sided conjunctivitis, dendritic keratitis (Figure), and anterior uveitis.
+10. The findings of the remainder of the examination, including the anterior segment of the right eye and the dilated fundus examination of both eyes, were unremarkable.
+11. Slitlamp photograph showing branching corneal pseudodendrites with minimal fluorescein uptake.","What Would You Do Next?
+
+A: Obtain a corneal culture  
+B: Human immunodeficiency virus testing and lymphocyte analysis  
+C: Discontinue oral acyclovir and start topical trifluridine  
+D: Perform corneal topography","['3. Medical history was significant for a heart murmur with no known history of chickenpox.', '7. Pupils were equally reactive with no relative afferent pupillary defect.']","['1. An adolescent boy was referred to the emergency department for suspected herpes zoster infection by his pediatrician.', '2. He presented with a 2-day history of painful, left-sided vesicular rash around his eyelid and forehead.', '4. His pediatrician prescribed oral acyclovir and ibuprofen as needed for pain.', '5. Best-corrected visual acuity was 20/20 OD and 20/25-2 OS.', '6. On examination, clear vesicles on erythematous bases were noted in the V1 distribution with left upper eyelid edema and erythema.', '8. Visual fields were full in both eyes.', '9. Anterior examination was significant for left-sided conjunctivitis, dendritic keratitis (Figure), and anterior uveitis.', '10. The findings of the remainder of the examination, including the anterior segment of the right eye and the dilated fundus examination of both eyes, were unremarkable.', '11. Slitlamp photograph showing branching corneal pseudodendrites with minimal fluorescein uptake.']",No,Yes,Yes,No,No,No,No,Yes,,
+ID0024,REMOVED,REMOVED,REMOVED,1,,,,,,,,,,,,,,,,,ID0024,4,B,mmlu,3,4,"1. A 25-year-old woman comes to the office because of a 6-month history of increasingly severe low back pain and heavy menses.  
+2. Her temperature is 37.1¬¨‚àûC (98.8¬¨‚àûF), pulse is 75/min, respirations are 13/min, and blood pressure is 115/79 mm Hg.  
+3. Physical examination shows no abnormalities.  
+4. An endometrial biopsy specimen shows regular tubular endometrial glands with abundant mitotic figures in the endometrial glands and stroma.","Which of the following proteins or enzymes regulate the progression of cells into this phase of this patient's menstrual cycle?
+
+A. AMP-dependent kinases
+
+B. Cyclin-dependent kinases
+
+C. Hexokinases
+
+D. Lipid kinases","['1. A 25-year-old woman comes to the office because of a 6-month history of increasingly severe low back pain and heavy menses.  ', '2. Her temperature is 37.1¬¨‚àûC (98.8¬¨‚àûF), pulse is 75/min, respirations are 13/min, and blood pressure is 115/79 mm Hg.  ', '3. Physical examination shows no abnormalities.  ']",['4. An endometrial biopsy specimen shows regular tubular endometrial glands with abundant mitotic figures in the endometrial glands and stroma.'],No,Yes,Yes,No,No,No,No,Yes,,
+ID0027,1,REMOVED,REMOVED,REMOVED,REMOVED,0.75,REMOVED,REMOVED,,,,,,,,,,,,,ID0027,8,D,mmlu,6,8,"1. A 47-year-old man comes to the physician 12 hours after the sudden onset of a severe occipital headache and stiff neck.  
+2. He has not had any other symptoms and has no history of severe headache.  
+3. He has hypertension and gastroesophageal reflux disease.  
+4. Current medications include hydrochlorothiazide and ranitidine.  
+5. He is oriented to person, place, and time.  
+6. His temperature is 36.7¬¨‚àûC (98.1¬¨‚àûF), pulse is 100/min, and blood pressure is 160/90 mm Hg.  
+7. Range of motion of the neck is decreased due to pain.  
+8. Neurologic examination shows no focal findings.","Which of the following is the most likely diagnosis?
+
+A. Cluster headache
+
+B. Meningitis
+
+C. Migraine
+
+D. Subarachnoid hemorrhage","['2. He has not had any other symptoms and has no history of severe headache.  ', '3. He has hypertension and gastroesophageal reflux disease.  ', '4. Current medications include hydrochlorothiazide and ranitidine.  ', '5. He is oriented to person, place, and time.  ', '7. Range of motion of the neck is decreased due to pain.  ', '8. Neurologic examination shows no focal findings.']","['1. A 47-year-old man comes to the physician 12 hours after the sudden onset of a severe occipital headache and stiff neck.  ', '6. His temperature is 36.7¬¨‚àûC (98.1¬¨‚àûF), pulse is 100/min, and blood pressure is 160/90 mm Hg.  ']",Yes,Yes,Yes,No,No,No,No,Yes,,
+ID0028,0.666666667,0.833333333,0.75,REMOVED,0.833333333,1,,,,,,,,,,,,,,,ID0028,6,A,medbullets,1,6,"1. A 72-year-old man presents to his primary care physician for a general checkup.
+2. He states that he has been a bit more fatigued lately but believes it is secondary to poor sleep at his new house.
+3. The patient is otherwise healthy and takes no medications.
+4. His temperature is 98.0¬¨‚àûF (36.7¬¨‚àûC), blood pressure is 141/90 mmHg, pulse is 82/min, respirations are 16/min, and oxygen saturation is 98% on room air.
+5. Physical exam is notable only for minor pallor but is otherwise unremarkable.
+6. Basic laboratory studies are ordered as seen below.
+
+Hemoglobin: 10 g/dL  
+Hematocrit: 30%  
+Leukocyte count: 67,500/mm^3  
+Platelet count: 119,000/mm^3  
+
+Serum:  
+Na: 141 mEq/L  
+Cl: 103 mEq/L  
+K: 4.0 Eq/L  
+HCO3-: 24 mEq/L  
+BUN: 22 mg/dL  
+Glucose: 109 mg/dL  
+Creatinine: 1.2 mg/dL  
+Ca: 10.0 mg/dL","Which of the following is the most likely diagnosis?
+
+A. Chronic lymphocytic leukemia  
+B. Acute lymphoblastic leukemia  
+C. Hairy cell leukemia  
+D. Chronic myelogenous leukemia","['4. His temperature is 98.0¬¨‚àûF (36.7¬¨‚àûC), blood pressure is 141/90 mmHg, pulse is 82/min, respirations are 16/min, and oxygen saturation is 98% on room air.']","['1. A 72-year-old man presents to his primary care physician for a general checkup.', '2. He states that he has been a bit more fatigued lately but believes it is secondary to poor sleep at his new house.', '3. The patient is otherwise healthy and takes no medications.', '5. Physical exam is notable only for minor pallor but is otherwise unremarkable.', '6. Basic laboratory studies are ordered as seen below.\n\nHemoglobin: 10 g/dL  \nHematocrit: 30%  \nLeukocyte count: 67,500/mm^3  \nPlatelet count: 119,000/mm^3  \n\nSerum:  \nNa: 141 mEq/L  \nCl: 103 mEq/L  \nK: 4.0 Eq/L  \nHCO3-: 24 mEq/L  \nBUN: 22 mg/dL  \nGlucose: 109 mg/dL  \nCreatinine: 1.2 mg/dL  \nCa: 10.0 mg/dL']",No,Yes,Yes,No,No,No,No,Yes,"3, 5",
+ID0029,1,0.75,0.75,0.75,0.75,REMOVED,REMOVED,REMOVED,0.75,REMOVED,0.75,1,,,,,,,,,ID0029,12,A,medbullets,4,12,"1. A 46-year-old man presents with his wife to his primary care provider for depression and strange movements.
+2. His wife reports that her husband has not been himself for the last 2 months.
+3. Whereas he was previously outgoing and ‚Äö√Ñ√∫the life of the party,‚Äö√Ñ√π the patient is now irritable and withdrawn.
+4. He is a partner at an accounting firm, but his colleagues are threatening to fire him if he continues to perform poorly at work.
+5. The patient cannot explain the recent changes to his mood and tearfully admits he fears there is something seriously wrong with him.
+6. His wife says that he is getting worse.
+7. The patient‚Äö√Ñ√¥s medical history is significant for hypertension, for which he takes lisinopril.
+8. His family history is unknown as he was adopted.
+9. The patient met his mother once and never knew his father but was told he died in his 50s.
+10. He drinks a few glasses of wine per week and has never smoked.
+11. His temperature is 98.6¬¨‚àûF (37¬¨‚àûC), blood pressure is 141/87 mmHg, pulse is 81/min, and respirations are 12/min.
+12. On physical exam, the patient has a flat affect with a facial grimace and sudden jerky movements of his upper extremities.","Which of the following is most likely to be seen on further workup?
+
+A. Dorsal striatum atrophy on head CT  
+B. Neurofibrillary tangles on brain biopsy  
+C. Alpha-synuclein aggregates on brain biopsy  
+D. Frontotemporal atrophy on head CT","['6. His wife says that he is getting worse.', '7. The patient‚Äö√Ñ√¥s medical history is significant for hypertension, for which he takes lisinopril.', '8. His family history is unknown as he was adopted.', '10. He drinks a few glasses of wine per week and has never smoked.']","['1. A 46-year-old man presents with his wife to his primary care provider for depression and strange movements.', '2. His wife reports that her husband has not been himself for the last 2 months.', '3. Whereas he was previously outgoing and ‚Äö√Ñ√∫the life of the party,‚Äö√Ñ√π the patient is now irritable and withdrawn.', '4. He is a partner at an accounting firm, but his colleagues are threatening to fire him if he continues to perform poorly at work.', '5. The patient cannot explain the recent changes to his mood and tearfully admits he fears there is something seriously wrong with him.', '9. The patient met his mother once and never knew his father but was told he died in his 50s.', '11. His temperature is 98.6¬¨‚àûF (37¬¨‚àûC), blood pressure is 141/87 mmHg, pulse is 81/min, and respirations are 12/min.', '12. On physical exam, the patient has a flat affect with a facial grimace and sudden jerky movements of his upper extremities.']",Yes,No,Yes,No,No,No,No,Yes,"2, 3, 4, 5",
+ID0030,REMOVED,1,1,REMOVED,1,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,1,REMOVED,REMOVED,REMOVED,REMOVED,,,,,,ID0030,15,B,jama,11,15,"1. The patient is a 48-year-old man with a history of a rectal adenocarcinoma (cT3N2bM0) diagnosed 9 years prior.
+2. Following neoadjuvant chemoradiotherapy, low anterior resection, and 6 cycles of adjuvant FOLFOX therapy (fluorouracil, leucovorin, and oxaliplatin), he had developed a lung metastasis (KRAS wild type) 1 year later.
+3. He subsequently developed multiple lung metastases treated with palliative local interventions (lobectomy, radiofrequency ablation) and 4 lines of chemotherapy.
+4. Owing to symptomatic lung disease, he was enrolled in a clinical trial (NCT03502733) following informed consent and achieved a confirmed partial response.
+5. After 9 months, contrast computed tomography restaging scans noted a new, 1-cm posterior subglottic lesion of unclear origin (Figure, A).
+6. He had no shortness of breath or noisy breathing, dysphagia, voice change, or hemoptysis.
+7. A partial response was maintained without evidence of progression of lung disease.A, An axial computed tomographic image reveals a new posterior subglottic lesion (pink arrowhead) of unclear etiology.
+8. B, In the operating room, the larynx was exposed with a Lindholm laryngoscope, and a Hopkins rod-lens endoscope was used to photograph the lesion under apneic conditions.
+9. C, Photomicrograph (original magnification ‚àö√≥20) of a section of the mass stained for CDX2 via standard immunohistochemical techniques.Otolaryngology was consulted to assess the lesion.
+10. The differential diagnosis based on imaging included a mass vs inspissated mucus.
+11. Examination using distal-chip flexible laryngoscopy revealed a 1-cm, broad-based, exophytic mass along the posterior wall of the subglottis with prominent vasculature.
+12. No other anatomic abnormalities in the upper aerodigestive tract or cervical lymphadenopathy were noted.
+13. The decision was made to proceed to the operating room for definitive endoscopic biopsy under general anesthesia (Figure, B).
+14. Examination revealed a subglottic mass that did not extend inferiorly beyond the caudal aspect of the cricoid cartilage.
+15. The mass was debulked and sent to pathology for analysis, including hematoxylin-eosin and immunohistochemical staining (Figure, C).","What Is Your Diagnosis?
+
+A: Tracheal granuloma  
+B: Metastatic rectal adenocarcinoma  
+C: Subglottic squamous cell carcinoma  
+D: Subglottic papilloma","['1. The patient is a 48-year-old man with a history of a rectal adenocarcinoma (cT3N2bM0) diagnosed 9 years prior.', '4. Owing to symptomatic lung disease, he was enrolled in a clinical trial (NCT03502733) following informed consent and achieved a confirmed partial response.', '6. He had no shortness of breath or noisy breathing, dysphagia, voice change, or hemoptysis.', '7. A partial response was maintained without evidence of progression of lung disease.A, An axial computed tomographic image reveals a new posterior subglottic lesion (pink arrowhead) of unclear etiology.', '8. B, In the operating room, the larynx was exposed with a Lindholm laryngoscope, and a Hopkins rod-lens endoscope was used to photograph the lesion under apneic conditions.', '9. C, Photomicrograph (original magnification ‚àö√≥20) of a section of the mass stained for CDX2 via standard immunohistochemical techniques.Otolaryngology was consulted to assess the lesion.', '10. The differential diagnosis based on imaging included a mass vs inspissated mucus.', '12. No other anatomic abnormalities in the upper aerodigestive tract or cervical lymphadenopathy were noted.', '13. The decision was made to proceed to the operating room for definitive endoscopic biopsy under general anesthesia (Figure, B).', '14. Examination revealed a subglottic mass that did not extend inferiorly beyond the caudal aspect of the cricoid cartilage.', '15. The mass was debulked and sent to pathology for analysis, including hematoxylin-eosin and immunohistochemical staining (Figure, C).']","['2. Following neoadjuvant chemoradiotherapy, low anterior resection, and 6 cycles of adjuvant FOLFOX therapy (fluorouracil, leucovorin, and oxaliplatin), he had developed a lung metastasis (KRAS wild type) 1 year later.', '3. He subsequently developed multiple lung metastases treated with palliative local interventions (lobectomy, radiofrequency ablation) and 4 lines of chemotherapy.', '5. After 9 months, contrast computed tomography restaging scans noted a new, 1-cm posterior subglottic lesion of unclear origin (Figure, A).', '11. Examination using distal-chip flexible laryngoscopy revealed a 1-cm, broad-based, exophytic mass along the posterior wall of the subglottis with prominent vasculature.']",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,
+ID0032,1,0.666666667,REMOVED,REMOVED,0.666666667,1,REMOVED,,,,,,,,,,,,,,ID0032,7,D,medbullets,3,7,"1. A 34-year-old nulliparous woman presents to the clinic with 2 weeks of copper-colored discharge from her right nipple.
+2. Her breast has not been tender, and she has not noticed any changes to the skin.
+3. She is otherwise healthy and does not take any medications.
+4. Her temperature is 36.5¬¨‚àûC (97.7¬¨‚àûF), blood pressure is 110/82 mmHg, pulse is 68/min, respirations are 12/min, and oxygen saturation is 99% on room air.
+5. Exam of the right breast reveals no mass on palpation.
+6. Bloody discharge is expressed from the right nipple.
+7. There is no axillary lymphadenopathy.","Which of the following is the most likely diagnosis?
+
+A. Ductal carcinoma in situ  
+B. Mammary duct ectasia  
+C. Invasive ductal carcinoma  
+D. Intraductal papilloma","['3. She is otherwise healthy and does not take any medications.', '4. Her temperature is 36.5¬¨‚àûC (97.7¬¨‚àûF), blood pressure is 110/82 mmHg, pulse is 68/min, respirations are 12/min, and oxygen saturation is 99% on room air.', '7. There is no axillary lymphadenopathy.']","['1. A 34-year-old nulliparous woman presents to the clinic with 2 weeks of copper-colored discharge from her right nipple.', '2. Her breast has not been tender, and she has not noticed any changes to the skin.', '5. Exam of the right breast reveals no mass on palpation.', '6. Bloody discharge is expressed from the right nipple.']",No,Yes,Yes,No,No,No,Yes,,,
+ID0034,0.666666667,REMOVED,0.666666667,1,1,1,1,REMOVED,REMOVED,1,REMOVED,,,,,,,,,,ID0034,11,A,medbullets,4,11,"1. A 27-year-old man presents to his primary care physician for exposure to toxic materials.
+2. The patient states that when he left for work this morning he was certain that he had closed the door to his pantry.
+3. Upon returning home, he saw that the door to his pantry was wide open.
+4. The patient is certain that his neighbors have been tampering with his food and potentially poisoned him.
+5. He further states that he knows they have been trying to break into his house and steal his things.
+6. He has tried multiple times to get them evicted from the building to no avail.
+7. It is for this reason that he is certain that they are trying to get their revenge upon him.
+8. His temperature is 98.6¬¨‚àûF (37¬¨‚àûC), blood pressure is 115/71 mmHg, pulse is 72/min, and respirations are 12/min.
+9. The physician performs a physical exam and tells the patient that he thinks there is nothing to be concerned about, but that he should call him or come into the office if he experiences any symptoms.
+10. The patient is outraged at this news and requests a competent doctor who is not colluding with his enemies.
+11. He storms out of the office angrily, stating that he deserves the best in medical care.","Which of the following is the most likely disorder that this patient is suffering from?
+
+A. Paranoid personality disorder  
+B. Borderline personality disorder  
+C. Narcissistic personality disorder  
+D. Schizoid personality disorder","['2. The patient states that when he left for work this morning he was certain that he had closed the door to his pantry.', '8. His temperature is 98.6¬¨‚àûF (37¬¨‚àûC), blood pressure is 115/71 mmHg, pulse is 72/min, and respirations are 12/min.', '9. The physician performs a physical exam and tells the patient that he thinks there is nothing to be concerned about, but that he should call him or come into the office if he experiences any symptoms.', '11. He storms out of the office angrily, stating that he deserves the best in medical care.']","['1. A 27-year-old man presents to his primary care physician for exposure to toxic materials.', '3. Upon returning home, he saw that the door to his pantry was wide open.', '4. The patient is certain that his neighbors have been tampering with his food and potentially poisoned him.', '5. He further states that he knows they have been trying to break into his house and steal his things.', '6. He has tried multiple times to get them evicted from the building to no avail.', '7. It is for this reason that he is certain that they are trying to get their revenge upon him.', '10. The patient is outraged at this news and requests a competent doctor who is not colluding with his enemies.']",No,Yes,No,Yes,Yes,No,No,Yes,,
+ID0039,1,0.666666667,0.666666667,REMOVED,,,,,,,,,,,,,,,,,ID0039,4,B,mmlu,1,4,"1. A 7-month-old infant, who was recently discharged from the hospital following an episode of enteritis and dehydration, has persistent watery diarrhea.
+2. His mother feeds him cow-milk formula and a variety of strained fruits and vegetables.
+3. On physical examination, his temperature is 37.4¬¨‚àûC (99.3¬¨‚àûF), his mucous membranes are dry, and his abdomen is slightly distended.
+4. No other abnormalities are seen.","The problem is most likely related to which of the following?
+
+A. Fructose intolerance
+
+B. Transient lactase deficiency
+
+C. Magnesium deficiency
+
+D. Regional enteritis",['4. No other abnormalities are seen.'],"['1. A 7-month-old infant, who was recently discharged from the hospital following an episode of enteritis and dehydration, has persistent watery diarrhea.', '2. His mother feeds him cow-milk formula and a variety of strained fruits and vegetables.', '3. On physical examination, his temperature is 37.4¬¨‚àûC (99.3¬¨‚àûF), his mucous membranes are dry, and his abdomen is slightly distended.']",No,Yes,No,No,No,No,No,Yes,,
+ID0042,1,1,1,REMOVED,1,1,1,1,,,,,,,,,,,,,ID0042,8,B,medxpert,1,8,"1. A 3-month-old boy is brought to the physician by his parents because of a 2-day history of poor feeding and lethargy.  
+2. He was born at term and has had three episodes of bilateral otitis media since birth.  
+3. Umbilical cord separation occurred at the age of 8 weeks.  
+4. He is at the 30th percentile for height and 20th percentile for weight.  
+5. His temperature is 39.0¬¨‚àûC (102.2¬¨‚àûF) and blood pressure is 58/36 mm Hg.  
+6. Physical examination shows white oral patches and confluent scaly erythematous skin lesions in the groin.  
+7. Laboratory studies show a leukocyte count of 41,300/mm3 (92% segmented neutrophils and 8% lymphocytes) and a platelet count of 224,000/mm3.  
+8. Blood cultures at 20¬¨‚àûC (68¬¨‚àûF) grow catalase-positive yeast cells.","Which of the following is the most likely underlying cause of this patient's symptoms?
+
+A. Impaired neutrophil chemotaxis  
+B. Defective beta-2 integrin  
+C. Defective NADPH oxidase  
+D. Abnormal toll-like receptor function  
+E. Defective IL-12 receptor signaling  
+F. Defective CD40 ligand  
+G. Abnormal neutrophil granule formation  
+H. Impaired myeloperoxidase function  
+I. Defective neutrophil adhesion molecule expression  
+J. Defective interferon-gamma production",['4. He is at the 30th percentile for height and 20th percentile for weight.  '],"['1. A 3-month-old boy is brought to the physician by his parents because of a 2-day history of poor feeding and lethargy.  ', '2. He was born at term and has had three episodes of bilateral otitis media since birth.  ', '3. Umbilical cord separation occurred at the age of 8 weeks.  ', '5. His temperature is 39.0¬¨‚àûC (102.2¬¨‚àûF) and blood pressure is 58/36 mm Hg.  ', '6. Physical examination shows white oral patches and confluent scaly erythematous skin lesions in the groin.  ', '7. Laboratory studies show a leukocyte count of 41,300/mm3 (92% segmented neutrophils and 8% lymphocytes) and a platelet count of 224,000/mm3.  ', '8. Blood cultures at 20¬¨‚àûC (68¬¨‚àûF) grow catalase-positive yeast cells.']",No,No,No,Yes,No,No,No,Yes,,
+ID0043,1,1,REMOVED,1,1,REMOVED,1,REMOVED,,,,,,,,,,,,,ID0043,8,C,jama,3,8,"1. A black woman in her 50s presented to the clinic with a 3-month history of nontender mildly pruritic verrucous nodules in several areas of a polychromatic tattoo on her right lower leg and foot.  
+2. She reported that these appeared 1 to 2 months following placement of the tattoo and were restricted to areas where the artist created pink zones by layering white ink over red ink.  
+3. She denied pain, fevers, and chills and had no history of skin cancer.  
+4. She reported a distant history of discoid lupus, and was taking 2 antihypertensives but no other oral or topical medications.  
+5. Physical examination revealed well-demarcated erythematous to violaceous verrucous nodules on the right lateral leg and dorsal foot (Figure 1A).  
+6. A punch biopsy specimen from a representative nodule was obtained, with an additional biopsy for tissue culture (Figure 1B).  
+7. A, Verrucous nodules are restricted to zones of pink pigment within the tattoo, sparing other colors present.  
+8. B, Histologic reaction pattern from punch biopsy specimen of right lower leg nodule (hematoxylin-eosin, original magnification ‚àö√≥4).","What Is Your Diagnosis?
+
+A: Hypertrophic discoid lupus  
+B: Eruptive keratoacanthomas  
+C: Pseudoepitheliomatous hyperplasia  
+D: Sarcoidosis arising in a tattoo","['3. She denied pain, fevers, and chills and had no history of skin cancer.  ', '6. A punch biopsy specimen from a representative nodule was obtained, with an additional biopsy for tissue culture (Figure 1B).  ', '8. B, Histologic reaction pattern from punch biopsy specimen of right lower leg nodule (hematoxylin-eosin, original magnification ‚àö√≥4).']","['1. A black woman in her 50s presented to the clinic with a 3-month history of nontender mildly pruritic verrucous nodules in several areas of a polychromatic tattoo on her right lower leg and foot.  ', '2. She reported that these appeared 1 to 2 months following placement of the tattoo and were restricted to areas where the artist created pink zones by layering white ink over red ink.  ', '4. She reported a distant history of discoid lupus, and was taking 2 antihypertensives but no other oral or topical medications.  ', '5. Physical examination revealed well-demarcated erythematous to violaceous verrucous nodules on the right lateral leg and dorsal foot (Figure 1A).  ', '7. A, Verrucous nodules are restricted to zones of pink pigment within the tattoo, sparing other colors present.  ']",No,Yes,,Yes,Yes,,,,,
+ID0044,0.75,0.75,REMOVED,REMOVED,REMOVED,1,REMOVED,0.75,0.75,REMOVED,REMOVED,0.75,1,,,,,,,,ID0044,13,B,jama,6,13,"1. An otherwise healthy adult man presented with left upper eyelid swelling for 2 days.
+2. This was accompanied by foreign-body sensation and discomfort of the left eye and was preceded by a week of general malaise without fevers or chills.
+3. He denied vision changes, light sensitivity, or drainage from the eye.
+4. He denied previous similar episodes of eyelid swelling or recurrent chalazia.
+5. He had no relevant medical history and his family history was negative for malignancy.
+6. Clinical examination revealed an area of ulceration centrally along the left upper eyelid margin, measuring approximately 8 mm‚Äö√Ñ√¢‚àö√≥‚Äö√Ñ√¢2 mm (Figure 1A).
+7. The eyelid demonstrated mild boggy edema; however, there were no associated nodules, vesicles, or plaques on the surrounding skin or face.
+8. There was mild madarosis in the area of ulceration.
+9. There was also a tender and enlarged preauricular lymph node on the ipsilateral side.
+10. The remainder of the clinical examination was unremarkable, including visual acuity, intraocular pressure, slitlamp biomicroscopy, and dilated fundus examination.
+11. A photomicrograph of a hematoxylin-eosin‚Äö√Ñ√¨stained section from an incisional biopsy specimen is shown in Figure 1B.
+12. A, External photograph of the left eye demonstrating central upper eyelid margin ulceration with sparse lashes and surrounding edema.
+13. B, Incisional biopsy reveals a necrotic epithelium with multinucleated keratinocytes and cytoplasmic inclusions (hematoxylin-eosin, ‚àö√≥200).","What Would You Do Next?
+
+A: Perform wide local excision with map biopsies  
+B: Initiate treatment with oral valacyclovir  
+C: Proceed with cryotherapy  
+D: Perform Mohs micrographic surgery followed by reconstruction with flap","['3. He denied vision changes, light sensitivity, or drainage from the eye.', '4. He denied previous similar episodes of eyelid swelling or recurrent chalazia.', '5. He had no relevant medical history and his family history was negative for malignancy.', '7. The eyelid demonstrated mild boggy edema; however, there were no associated nodules, vesicles, or plaques on the surrounding skin or face.', '10. The remainder of the clinical examination was unremarkable, including visual acuity, intraocular pressure, slitlamp biomicroscopy, and dilated fundus examination.', '11. A photomicrograph of a hematoxylin-eosin‚Äö√Ñ√¨stained section from an incisional biopsy specimen is shown in Figure 1B.']","['1. An otherwise healthy adult man presented with left upper eyelid swelling for 2 days.', '2. This was accompanied by foreign-body sensation and discomfort of the left eye and was preceded by a week of general malaise without fevers or chills.', '6. Clinical examination revealed an area of ulceration centrally along the left upper eyelid margin, measuring approximately 8 mm\u2009‚àö√≥\u20092 mm (Figure 1A).', '8. There was mild madarosis in the area of ulceration.', '9. There was also a tender and enlarged preauricular lymph node on the ipsilateral side.', '12. A, External photograph of the left eye demonstrating central upper eyelid margin ulceration with sparse lashes and surrounding edema.', '13. B, Incisional biopsy reveals a necrotic epithelium with multinucleated keratinocytes and cytoplasmic inclusions (hematoxylin-eosin, ‚àö√≥200).']",No,Yes,Yes,Yes,No,No,No,Yes,,
+ID0045,REMOVED,0.5,REMOVED,,,,,,,,,,,,,,,,,,ID0045,3,D,medxpert,2,3,"1. A 32-year-old male presents to the emergency department after suffering an L1 burst fracture from a fall.
+2. Neurologic examination confirms he is an ASIA E.
+3. MRI reveals mild vertebral retropulsion with 10% central canal stenosis and no signs of posterior ligament complex injury.","Regarding surgical decompression and fixation compared to nonoperative management with bracing, which of the following statements is accurate?
+
+A. Patients treated with surgery return to work earlier.  
+B. Bracing is contraindicated in burst fractures with canal stenosis.  
+C. All of the above  
+D. Patients treated with surgery have increased complication rates.  
+E. Surgical treatment provides superior functional outcomes.  
+F. Surgery significantly improves canal stenosis compared to bracing.  
+G. Surgery significantly reduces pain compared to bracing.  
+H. Surgery is required in all cases of burst fractures to prevent long-term deformity.  
+I. Surgical decompression is necessary for all ASIA E patients.  
+J. Patients treated nonoperatively have higher rates of long-term disability.","['1. A 32-year-old male presents to the emergency department after suffering an L1 burst fracture from a fall.', '3. MRI reveals mild vertebral retropulsion with 10% central canal stenosis and no signs of posterior ligament complex injury.']",['2. Neurologic examination confirms he is an ASIA E.'],No,No,No,No,No,Yes,Yes,No,,
+ID0046,0.875,0.875,0.875,0.625,REMOVED,REMOVED,REMOVED,0.625,0.875,1,0.75,0.875,1,1,,,,,,,ID0046,14,D,medbullets,3,14,"1. A 62-year-old man presents to the emergency department with increased fatigue and changes in his vision.
+2. For the past month, he has felt abnormally tired and today noticed his vision is blurry.
+3. The patient also endorses increased sweating at night and new-onset headaches.
+4. He currently feels dizzy.
+5. The patient has a medical history of diabetes and hypertension.
+6. His current medications include insulin, metformin, and lisinopril.
+7. His temperature is 99.5¬¨‚àûF (37.5¬¨‚àûC), blood pressure is 157/98 mmHg, pulse is 90/min, respirations are 17/min, and oxygen saturation is 98% on room air.
+8. A cardiopulmonary exam is within normal limits.
+9. HEENT exam reveals non-tender posterior and anterior chain lymphadenopathy.
+10. Abdominal exam reveals splenomegaly and hepatomegaly.
+11. There are large, non-tender palpable lymph nodes in the patient's inguinal region.
+12. A neurological exam is notable for decreased sensation in the patient's hands and feet.
+13. He also complains of numbness and tingling pain in his extremities that has been persistent during this time.
+14. The dermatologic exam is notable for multiple bruises on his upper and lower extremities.","Which of the following is most likely to be abnormal in this patient?
+
+A. IgA and IgG  
+B. Calcium  
+C. T-cells  
+D. IgM","['5. The patient has a medical history of diabetes and hypertension.', '6. His current medications include insulin, metformin, and lisinopril.', '7. His temperature is 99.5¬¨‚àûF (37.5¬¨‚àûC), blood pressure is 157/98 mmHg, pulse is 90/min, respirations are 17/min, and oxygen saturation is 98% on room air.']","['1. A 62-year-old man presents to the emergency department with increased fatigue and changes in his vision.', '2. For the past month, he has felt abnormally tired and today noticed his vision is blurry.', '3. The patient also endorses increased sweating at night and new-onset headaches.', '4. He currently feels dizzy.', '8. A cardiopulmonary exam is within normal limits.', '9. HEENT exam reveals non-tender posterior and anterior chain lymphadenopathy.', '10. Abdominal exam reveals splenomegaly and hepatomegaly.', ""11. There are large, non-tender palpable lymph nodes in the patient's inguinal region."", ""12. A neurological exam is notable for decreased sensation in the patient's hands and feet."", '13. He also complains of numbness and tingling pain in his extremities that has been persistent during this time.', '14. The dermatologic exam is notable for multiple bruises on his upper and lower extremities.']",No,Yes,Yes,No,No,No,No,Yes,"2, 8",
+ID0047,1,0.666666667,REMOVED,0.833333333,1,1,REMOVED,1,,,,,,,,,,,,,ID0047,8,A,jama,2,8,"1. A 49-year-old man with a history of diabetes, hypertension, intravenous drug abuse, and multiple sexual partners presented to the emergency department with painless vision loss in both eyes for 10 days, left eye worse than right eye, and photophobia in both eyes.
+2. His visual acuity was count fingers OD and 20/70 OS.
+3. Intraocular pressure was 20 mm Hg OD and 16 mm Hg OS.
+4. There were 1+ (10-12 cells/high-power field) anterior chamber cells in both eyes with very hazy posterior pole details in the right eye and minimal vitreous haze in the left eye.
+5. There was a hazy view to the posterior pole in the right eye with disc edema and multiple flame hemorrhages surrounding the nerve.
+6. Examination of the posterior pole in the left eye revealed partial obstruction of all vessels and a complete halo on the disc with numerous flame hemorrhages emanating from and surrounding the optic nerve, along with a few dot blot hemorrhages within the macula (Figure).
+7. His blood pressure was 173/137 mm Hg, but the rest of his vital signs were normal.Widefield color image of the left eye of a 49-year-old man with acute loss of vision.
+8. There is marked hemorrhagic disc edema with flame hemorrhages emanating from and surrounding the optic nerve.","What Would You Do Next?
+
+A: Obtain HIV and syphilis serology results  
+B: Administer 1000 mg of intravenous methylprednisolone  
+C: Inject intravitreal foscarnet  
+D: Obtain computed tomographic scan of the brain","['3. Intraocular pressure was 20 mm Hg OD and 16 mm Hg OS.', '7. His blood pressure was 173/137 mm Hg, but the rest of his vital signs were normal.Widefield color image of the left eye of a 49-year-old man with acute loss of vision.']","['1. A 49-year-old man with a history of diabetes, hypertension, intravenous drug abuse, and multiple sexual partners presented to the emergency department with painless vision loss in both eyes for 10 days, left eye worse than right eye, and photophobia in both eyes.', '2. His visual acuity was count fingers OD and 20/70 OS.', '4. There were 1+ (10-12 cells/high-power field) anterior chamber cells in both eyes with very hazy posterior pole details in the right eye and minimal vitreous haze in the left eye.', '5. There was a hazy view to the posterior pole in the right eye with disc edema and multiple flame hemorrhages surrounding the nerve.', '6. Examination of the posterior pole in the left eye revealed partial obstruction of all vessels and a complete halo on the disc with numerous flame hemorrhages emanating from and surrounding the optic nerve, along with a few dot blot hemorrhages within the macula (Figure).', '8. There is marked hemorrhagic disc edema with flame hemorrhages emanating from and surrounding the optic nerve.']",No,No,No,No,No,Yes,Yes,Yes,,
+ID0048,REMOVED,1,1,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,,,,,,,,,,,ID0048,10,D,medbullets,8,10,"1. A 35-year-old G0P0000 woman presents to her gynecologist with complaints of irregular menstruation.
+2. She has had only 2 periods in the last year.
+3. She feels flushed without provocation and is experiencing occasional dyspareunia with post-coital spotting.
+4. She has also had more frequent headaches than usual.
+5. The patient has a medical history of Hashimoto thyroiditis and takes levothyroxine daily.
+6. Her mother has type 1 diabetes mellitus.
+7. Her temperature is 98.5¬¨‚àûF (36.9¬¨‚àûC), pulse is 70/min, blood pressure is 118/76 mmHg, and respirations are 13/min.
+8. Cardiopulmonary and abdominal exams are unremarkable.
+9. The patient has Tanner 5 breasts and pubic hair.
+10. A pelvic exam reveals a normal cervix, an anteverted uterus without tenderness, and no adnexal masses.","Which of the following is the most appropriate next step in management?
+
+A. Combined oral contraceptive  
+B. Increase levothyroxine dose  
+C. Brain MRI  
+D. Estradiol patch with oral medroxyprogesterone","['1. A 35-year-old G0P0000 woman presents to her gynecologist with complaints of irregular menstruation.', '4. She has also had more frequent headaches than usual.', '5. The patient has a medical history of Hashimoto thyroiditis and takes levothyroxine daily.', '6. Her mother has type 1 diabetes mellitus.', '7. Her temperature is 98.5¬¨‚àûF (36.9¬¨‚àûC), pulse is 70/min, blood pressure is 118/76 mmHg, and respirations are 13/min.', '8. Cardiopulmonary and abdominal exams are unremarkable.', '9. The patient has Tanner 5 breasts and pubic hair.', '10. A pelvic exam reveals a normal cervix, an anteverted uterus without tenderness, and no adnexal masses.']","['2. She has had only 2 periods in the last year.', '3. She feels flushed without provocation and is experiencing occasional dyspareunia with post-coital spotting.']",Yes,Yes,No,No,Yes,Yes,Yes,No,"1, 3, 5, 6. should be included",
+ID0049,1,0.75,0.75,0.75,REMOVED,0.75,0.75,1,0.75,0.75,REMOVED,0.75,,,,,,,,,ID0049,12,B,jama,2,12,"1. A previously healthy 13-year-old boy presented to an optometrist 2 days after the onset of blurred vision in his left eye.
+2. His best-corrected visual acuity was 20/20 OD and 20/200 OS.
+3. Findings on pupillary, motility, and slitlamp examination of the anterior segment were unremarkable.
+4. Findings on dilated fundus examination of the right eye were normal.
+5. Figure 1A depicts the fundus findings in the left eye.
+6. The patient‚Äö√Ñ√¥s history was negative for travel, recent vaccinations, or systemic illnesses.
+7. He denied having fever, nausea, headache, or other influenzalike symptoms.A, Unilateral isolated disc edema at initial presentation.
+8. B, Development of macular edema with exudates 1 week after initial presentation.Findings on magnetic resonance imaging of the brain and orbits showed subtle enhancement of the left optic nerve.
+9. No masses or demyelinating lesions were found.One week later, he presented to the ophthalmology office.
+10. His best-corrected visual acuity had improved to 20/40 OS.
+11. His examination was notable for the fundus finding shown in Figure 1B.
+12. The patient reported exposure to cats at home but had no recollection of direct trauma.","What Would You Do Next?
+
+A: Repeated neuroimaging  
+B: Serum antibody titer  
+C: Cerebrospinal fluid analysis  
+D: Blood culture analysis","['5. Figure 1A depicts the fundus findings in the left eye.', '11. His examination was notable for the fundus finding shown in Figure 1B.']","['1. A previously healthy 13-year-old boy presented to an optometrist 2 days after the onset of blurred vision in his left eye.', '2. His best-corrected visual acuity was 20/20 OD and 20/200 OS.', '3. Findings on pupillary, motility, and slitlamp examination of the anterior segment were unremarkable.', '4. Findings on dilated fundus examination of the right eye were normal.', '6. The patient‚Äö√Ñ√¥s history was negative for travel, recent vaccinations, or systemic illnesses.', '7. He denied having fever, nausea, headache, or other influenzalike symptoms.A, Unilateral isolated disc edema at initial presentation.', '8. B, Development of macular edema with exudates 1 week after initial presentation.Findings on magnetic resonance imaging of the brain and orbits showed subtle enhancement of the left optic nerve.', '9. No masses or demyelinating lesions were found.One week later, he presented to the ophthalmology office.', '10. His best-corrected visual acuity had improved to 20/40 OS.', '12. The patient reported exposure to cats at home but had no recollection of direct trauma.']",No,No,No,Yes,No,No,No,Yes,,
+ID0052,0.75,0.666666667,REMOVED,0.666666667,0.833333333,REMOVED,,,,,,,,,,,,,,,ID0052,6,C,jama,2,6,"1. A man in his 70s presented to the clinic with a split in the right fifth fingernail for the past 10 years.
+2. He reported paroxysmal, intermittent pain that was exacerbated by cold weather.
+3. He fractured the digit more than 30 years earlier.
+4. Physical examination revealed distal nail plate splitting with accompanying longitudinal erythronychia (Figure, A) and tenderness on palpation of the nail unit.
+5. Magnetic resonance imaging revealed a nail matrix lesion (Figure, B), which was excised using a transungual approach with partial nail avulsion.
+6. The specimen was analyzed by histopathology (Figure, C and D).","What Is Your Diagnosis?
+
+A: Amelanotic melanoma  
+B: Onychopapilloma  
+C: Glomus tumor  
+D: Squamous cell carcinoma in situ","['3. He fractured the digit more than 30 years earlier.', '6. The specimen was analyzed by histopathology (Figure, C and D).']","['1. A man in his 70s presented to the clinic with a split in the right fifth fingernail for the past 10 years.', '2. He reported paroxysmal, intermittent pain that was exacerbated by cold weather.', '4. Physical examination revealed distal nail plate splitting with accompanying longitudinal erythronychia (Figure, A) and tenderness on palpation of the nail unit.', '5. Magnetic resonance imaging revealed a nail matrix lesion (Figure, B), which was excised using a transungual approach with partial nail avulsion.']",No,No,No,YNo,Yes,No,No,Yes,,
+ID0053,1,REMOVED,REMOVED,REMOVED,REMOVED,1,1,,,,,,,,,,,,,,ID0053,7,H,medxpert,4,7,"1. A 33-year-old woman presents with left ankle pain and swelling that has persisted for 4 days following a fall down the stairs after missing a step.
+2. She reports being able to move slowly but is concerned because the pain has not improved despite taking acetaminophen.
+3. Her medical history is unremarkable, and she takes only an oral contraceptive.
+4. She is 173 cm (5 ft 8 in) tall, weighs 74 kg (163 lb), and has a BMI of 25 kg/m¬¨‚â§.
+5. Vital signs are within normal limits.
+6. On physical examination, there is moderate swelling of the left ankle and tenderness along the anterior edge of the lateral malleolus.
+7. Range of motion is limited due to pain, but the left dorsalis pedis pulse is 2+, and she can walk without a limp.","What is the most appropriate next step in management?
+
+A. Ankle arthrocentesis  
+B. CT scan of the ankle  
+C. Ultrasound evaluation of the ankle  
+D. Leg cast to immobilize the ankle  
+E. Complete immobilization with cast  
+F. MRI of the ankle  
+G. X-ray of the ankle  
+H. Protected weight bearing, cooling, and compression  
+I. Physical therapy referral  
+J. NSAIDs and continued normal activity","['2. She reports being able to move slowly but is concerned because the pain has not improved despite taking acetaminophen.', '3. Her medical history is unremarkable, and she takes only an oral contraceptive.', '4. She is 173 cm (5 ft 8 in) tall, weighs 74 kg (163 lb), and has a BMI of 25 kg/m¬¨‚â§.', '5. Vital signs are within normal limits.']","['1. A 33-year-old woman presents with left ankle pain and swelling that has persisted for 4 days following a fall down the stairs after missing a step.', '6. On physical examination, there is moderate swelling of the left ankle and tenderness along the anterior edge of the lateral malleolus.', '7. Range of motion is limited due to pain, but the left dorsalis pedis pulse is 2+, and she can walk without a limp.']",No,Yes,Yes,No,No,Yes,Yes,Yes,2 could be included to rule out NSAID use in the answer,
+ID0054,1,1,1,1,REMOVED,REMOVED,1,REMOVED,1,REMOVED,1,,,,,,,,,,ID0054,11,A,jama,4,11,"1. A 24-year-old woman who worked on a farm in Connecticut developed fever, chills, vomiting, and a truncal maculopapular rash 3 weeks before presentation.
+2. One week after symptom onset, she remained febrile (maximum temperature, 39.6¬¨‚àûC [103.2¬¨‚àûF]) and the rash spread to her palms and soles, with some progression to pustules (Figure, left panel).
+3. She developed right knee pain, followed by pain in other joints.
+4. Two weeks after symptom onset, she presented to a local emergency department, reporting inability to stand due to severe joint pain.
+5. Results of tests for sexually transmitted infections and respiratory viruses were negative.
+6. She was presumptively diagnosed with a viral illness and discharged home with supportive care.
+7. Approximately 3 weeks after symptom onset, she presented to the emergency department again with persistent fever, worsening arthralgia, back pain, and progressive purpuric and pustular rash.
+8. Her vital signs were unremarkable.
+9. White blood cell count was 12‚Äö√Ñ√ò100/≈í¬∫L (reference range, 4000/≈í¬∫L-10‚Äö√Ñ√ò000/≈í¬∫L), with 84% neutrophils.
+10. Urinalysis results and levels of serum electrolytes and liver enzymes were within normal limits.
+11. Gram stain of blood culture is shown in the Figure (right panel).","What Would You Do Next?
+
+A: Inquire about rodent and other animal exposures  
+B: Obtain joint fluid for bacterial analysis and cultures  
+C: Test for Borrelia burgdorferi  
+D: Test vesicular fluid for enterovirus","['5. Results of tests for sexually transmitted infections and respiratory viruses were negative.', '6. She was presumptively diagnosed with a viral illness and discharged home with supportive care.', '8. Her vital signs were unremarkable.', '10. Urinalysis results and levels of serum electrolytes and liver enzymes were within normal limits.']","['1. A 24-year-old woman who worked on a farm in Connecticut developed fever, chills, vomiting, and a truncal maculopapular rash 3 weeks before presentation.', '2. One week after symptom onset, she remained febrile (maximum temperature, 39.6¬¨‚àûC [103.2¬¨‚àûF]) and the rash spread to her palms and soles, with some progression to pustules (Figure, left panel).', '3. She developed right knee pain, followed by pain in other joints.', '4. Two weeks after symptom onset, she presented to a local emergency department, reporting inability to stand due to severe joint pain.', '7. Approximately 3 weeks after symptom onset, she presented to the emergency department again with persistent fever, worsening arthralgia, back pain, and progressive purpuric and pustular rash.', '9. White blood cell count was 12\u202f100/≈í¬∫L (reference range, 4000/≈í¬∫L-10\u202f000/≈í¬∫L), with 84% neutrophils.', '11. Gram stain of blood culture is shown in the Figure (right panel).']",No,Yes,No,No,Yes,No,No,Yes,11 could be removed,
