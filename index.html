@@ -184,26 +184,18 @@
 
 <!-- Image carousel -->
 <section class="hero is-small">
-      <div class="container">
-        <div class="image-grid">
-            <div class="image-container">
-                <img src="static/images/Neurips_Study_Design_GIF.gif" alt="Evaluation Pipeline Overview">
-                <h2 class="subtitle">
-                    Evaluation Pipeline Overview.
-                </h2>
-            </div>
-            <br>            <br>
+      <div class="container">          
             <div class="image-container">
                 <img src="static/images/Dataset_Overview.jpg" alt="Third Image">
                 <h2 class="subtitle">
-                    The dataset overview represents the annotation process for 2000 clinical question-answer pairs.
+                    The dataset overview represents the annotation process for 2000 clinical question-answer pairs. We consolidated four QA data sources into two main components: the patient profile and the query. In the first step, 36 physician trainees and 4 LLMs independently selected the most appropriate answer. In the second step, physician trainees annotated the relevance of each sentence within the patient profile, excluding annotations linked to incorrect answers. Majority voting was used to produce binary relevance labels for physician trainees. Concurrently, we employed ContextCite with open-source LLMs (Qwen-14B, Qwen-72B, Llama-70B) to generate relevance scores, while GPT-4o was prompted to replicate the physician annotation process for each sentence following the same instructions.
                 </h2>
             </div>
             <br>            <br>
             <div class="image-container">
                 <img src="static/images/CentaurLab_Labels.png" alt="Fourth Image">
                 <h2 class="subtitle">
-                    Physician trainee's relevancy labels across four datasets.
+                    Sentence Position Analysis. Plot (a) Distribution of physician trainees’ majority‐vote relevance labels by sentence position. Plot (b) Distribution of GPT-4o self-reported relevance labels by sentence position. Plot (c) ContextCite scores across the context for three open-source models (Qwen-14B, Llama-70B, Qwen-72B).
                 </h2>
             </div>
             <br>            <br>
@@ -213,6 +205,15 @@
                     Sentence Position Analysis. (a) Distribution of LLM self-reported relevance labels by sentence position; (b) Distribution of physician trainee majority-voted relevance labels by sentence position; (c) Qwen-14B ContextCite scores across the clinical context.
                 </h2>
             </div>
+        
+            <div class="image-grid">
+            <div class="image-container">
+                <img src="static/images/Result.png" alt="Evaluation Pipeline Overview">
+                <h2 class="subtitle">
+                    Effect of Filtering Context on Final Performance.  GPT-4o outperforms all tested open-source language models. After removing irrelevant and low-relevance sentences, LLaMA 70B and Qwen 14B demonstrated the most substantial accuracy improvements. In contrast, Qwen 72B occasionally experiences performance drops following the removal process. 
+                </h2>
+            </div>
+            <br>            <br>
         </div>
     </div>
 </section>
